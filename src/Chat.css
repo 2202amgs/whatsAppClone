@@ -48,6 +48,7 @@
 	padding: 20px 10px 10px;
 	border-radius: 10px;
 	margin-bottom: 30px;
+	min-width: 100px;
 }
 
 .chat__reciever {
@@ -93,5 +94,16 @@
 }
 
 .chat__footer > form > input:focus {
-	outline: none;	
+	outline-color: aqua;
+}
+
+.chat__footer > form > button {
+	/* background-color:aqua;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	color: white; */
+	visibility: hidden;
+	width: 0;
 }
